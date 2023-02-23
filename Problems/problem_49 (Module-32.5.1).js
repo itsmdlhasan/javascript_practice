@@ -338,11 +338,44 @@ const studentData = [
         ]
     },
 ]
-const [{details: [, {gradingDetails: [{grade: secondStudentGrade}]}]}] = studentData;
-const [, {details: [, {gradingDetails: [{grade: fourthStudentGrade}]}]}] = studentData;
-console.log(secondStudentGrade);
-console.log(fourthStudentGrade);
+// const [{ details: [, { gradingDetails: [{ grade: secondStudentGrade }] }] }] = studentData;
+// const [, { details: [, { gradingDetails: [{ grade: fourthStudentGrade }] }] }] = studentData;
+// console.log(secondStudentGrade);
+// console.log(fourthStudentGrade);
+
+
+
 
 
 
 /* Problem-16:
+How will you display
+a) habluder adda
+b) Beginner */
+let data = {
+    data:
+        [
+            {
+                bookId: 1,
+                bookDetails: {
+                    name: "habluder adda",
+                    category: "XYZ",
+                    price: "20$",
+                },
+                bookCategory: "Basic",
+            },
+            {
+                bookId: 2,
+                bookDetails: {
+                    name: "gobluder adda",
+                    category: "ABC",
+                    price: "40$",
+                },
+                bookCategory: "Beginner",
+            }
+        ]
+}
+// const {data: [{bookDetails: {name: bookName}}]} = data;
+// console.log(bookName);
+// const {data: [, {bookCategory: categoryName}]} = data;
+// console.log(categoryName);
